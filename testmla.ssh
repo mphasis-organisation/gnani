@@ -1,0 +1,9 @@
+fruit="orange"
+case  $fruit in
+ "orange")
+echo "its's an orange.";;
+"banana")
+echo "it's a banana.";;
+*)
+echo "Unknown fruit.";;
+esac
